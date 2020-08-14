@@ -1,0 +1,418 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+	width:1020px;
+	border:1px solid;
+	border-color: blue;
+	margin: 0 auto;
+}
+.block1{
+	font-size: 0;
+	
+}
+.a1{
+	width: 340px;
+	display: inline-block;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	font-size: 15px;
+}
+.a2{
+	width:340px;
+	display: inline-block;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	font-size: 15px;
+}
+.a3{
+	width:340px;
+	display: inline-block;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	font-size: 15px;
+}
+.block2{
+	font-size: 0;
+}
+.d{
+	width:700px;
+	display: inline-block;
+	vertical-align: top;
+}
+.s1{
+	
+	border:1px solid;
+	font-size: 15px;
+	border-color: blue;
+	color:red;
+}
+.s2{
+	
+	border:1px solid;
+	font-size: 15px;
+	border-color: blue;
+	color:red;
+}
+.s3{
+	
+	border:1px solid;
+	font-size: 15px;
+	border-color: blue;
+	color:red;
+}
+.d2{
+	width: 320px;
+	display: inline-block;
+}
+.s4{
+	border:1px solid;
+	font-size: 15px;
+	border-color: blue;
+	color:red;
+}
+.s5{
+	border:1px solid;
+	font-size: 15px;
+	border-color: blue;
+	color:red;
+}
+.block3{
+	font-size: 0;
+}
+.left{
+	width: 400px;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+	font-size: 15px;
+	display: inline-block;
+}
+.right{
+	width: 620px;
+	display: inline-block;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+	font-size: 15px;
+}
+.rt1{
+	width: 620px;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	font-size: 15px;
+	display:inline-block;
+}
+.rt2{
+	width: 620px;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	font-size: 15px;
+	display:inline-block;
+}
+.rtt1{
+	width: 310px;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	display: inline-block;
+	vertical-align: top;
+}
+.vpravo{
+	width: 300px;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+	display: inline-block;
+	font-size: 15px;
+}
+.rtt2{
+	border:1px solid;
+	border-color: blue;
+}
+.block4{
+	font-size: 0;
+}
+.last1{
+	width: 600px;
+	font-size: 15px;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+	display: inline-block;
+	vertical-align: top;
+}
+.last13{
+	width: 600px;
+	font-size: 15px;
+	border:1px solid;
+	border-color: blue;
+}
+.last12{
+	width: 600px;
+	font-size: 15px;
+	border:1px solid;
+	border-color: blue;
+}
+.q123{
+	width: 300px;
+	border:1px solid;
+	border-color: blue;
+	display: inline-block;
+	color: red;
+}
+.qaz{
+	width: 300px;
+	border:1px solid;
+	border-color: blue;
+	display: inline-block;
+	color: red;
+
+}
+.f1{
+	width: 150px;
+	border:1px solid;
+	border-color: blue;
+	display: inline-block;
+	color: red;
+}
+.f2{
+	width: 130px;
+	border:1px solid;
+	border-color: blue;
+	display: inline-block;
+	color: red;
+}
+.f3{
+	width: 300px;
+	border:1px solid;
+	border-color: blue;
+	display: inline-block;
+	color: red;
+}
+.f4{
+	width: 280px;
+	border:1px solid;
+	border-color: blue;
+	display: inline-block;
+	color: red;
+	vertical-align: top;
+}
+.lsd{
+	width: 400px;
+	font-size: 15px;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+	display: inline-block;
+}
+.bom{
+	width: 400px;
+	font-size: 15px;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+	display: inline-block;
+}
+
+.menu{
+	font-size:0;
+	text-align: center;
+	position:relative;
+	z-index: 5;
+
+}
+.menu li{
+	background: #110D36;
+}
+.first{
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 20px;
+	
+	position: relative;	
+}
+.menu .first a:hover{
+	background: #EBDF21;
+}
+.menu .first a{
+	color:white;
+	text-decoration: none;
+	padding: 40px 40px 40px 140px;
+	display: block;
+	position: relative;
+}
+.menu .first .threea{
+	color:white;
+	text-decoration: none;
+	padding: 40px 140px 40px 40px;
+	display: block;
+	position: relative;
+}
+.onea:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -200px -0;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.twoa:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -100px;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.threea:after {
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -100px;
+	transition: all 0s ;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.menu .first:hover .threea:after{
+	background-position: -200px -100px;
+}
+.foura:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -200px;
+	transition: all 0s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.merlast:hover .foura:before{
+	background-position: -300px -200px;
+}
+.fivea:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -200px;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sixa:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -300px -0;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sevena:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -300px;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.merlastli:hover .sevena:before{
+	background-position: -300px -100px;
+}
+
+.eighta:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -0;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.prev{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	width: 100%;
+	padding:5px 0 0 0;
+}
+.first:hover .prev{
+	display: block;
+}
+.lastmenu{
+	position: absolute;
+	display: none;
+	width: auto;
+	left: 100%;
+	top:0;
+	padding:0 0 0 5px;
+}
+.merlast:hover .lastmenu{
+	display: block;
+}
+.merlast{
+	position: relative;
+}

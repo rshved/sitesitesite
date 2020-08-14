@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper {
+	width:1020px;
+	margin: 0 auto;
+}
+.wrapper>div{
+	
+	border: 1px solid blue;
+}
+.table{
+	
+	border:2px solid;
+	border-color: blue;
+	width: 100%
+}
+.in_t{
+	
+	color:red;
+	width: 340px;
+	display: table-cell;
+	border:1px solid;
+	border-collapse:collapse;
+	padding: 1px;
+	border-color:blue;	
+}
+.tt1{
+	width:700px;
+	display: table-cell;
+	border:1px solid;
+	border-collapse: collapse;
+	border-color: blue;
+
+}
+.tt2{
+	width: 320px;
+	display: table-cell;
+	border:1px solid;
+	border-color: blue;
+}
+.ttr{
+	
+	padding: 10px;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+}
+p{
+	padding: 3px;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+}
+.bb1{
+	width: 320px;
+	display: table-cell;
+	border:1px solid;
+	border-color: blue;
+	color:red;
+}
+.bb2{
+	width: 700px;
+	display: table-cell;
+	border:1px solid;
+	border-color: blue;
+	color: red;
+}
+.q1{
+	width:700px;
+	border:1px solid;
+	border-color: blue
+}
+.q2{
+	
+	border: 1px solid;
+	border-color: blue;
+	display: table-cell;
+	width: 700px;
+}
+.qq2{
+	display: table-cell;
+	width:350px;
+	border: 1px solid;
+	border-color: blue;
+}
+.qq3{
+	display: table-cell;
+	width:350px;
+	border: 1px solid;
+	border-color: blue;
+}
+.podglav1{
+	width:700px;
+	display: table-cell;
+	border:1px solid;
+	border-color:blue;
+	color:red;
+}
+.ww{
+	width: 700px;
+	border:1px solid;
+	border-color: blue;
+}
+.ww2{
+	width:700px;
+	border:1px solid;
+	border-color: blue;
+
+}
+.qww{
+	width: 350px;
+	display: table-cell;
+}
+.qq1{
+	width: 350px;
+	display: table-cell;
+}
+.w1{
+	border:1px solid;
+	display: table-cell;
+	width:175px;
+	border-color: blue;
+}
+.w2{
+	border:1px solid;
+	display: table-cell;
+	width:175px;
+	border-color: blue;
+}
+.w3{
+	border:1px solid;
+	width:350px;
+	border-color: blue;
+}
+.ww3{
+	display: table-cell;
+	border:1px solid;
+	width:350px;
+	border-color: blue;
+
+}
+.podglav2{
+	width: 320px;
+	display: table-cell;
+	color:red;
+}
+.e1{
+	border:1px solid;
+	border-color: blue;
+}
+.e2{
+	border:1px solid;
+	border-color: blue;
+}
+.e3{
+	border:1px solid;
+	border-color: blue;
+}
+.menu{
+	font-size:0;
+	text-align: center;
+	position:relative;
+	z-index: 5;
+
+}
+.menu li{
+	background: #110D36;
+}
+.first{
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 20px;
+	
+	position: relative;	
+}
+.menu .first a:hover{
+	background: #EBDF21;
+}
+.menu .first a{
+	color:white;
+	text-decoration: none;
+	padding: 40px 40px 40px 140px;
+	display: block;
+	position: relative;
+}
+.menu .first .threea{
+	color:white;
+	text-decoration: none;
+	padding: 40px 140px 40px 40px;
+	display: block;
+	position: relative;
+}
+.onea:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -200px -0;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.twoa:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -100px;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.threea:after {
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -100px;
+	transition: all 0s ;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.menu .first:hover .threea:after{
+	background-position: -200px -100px;
+}
+.foura:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -200px;
+	transition: all 0s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.merlast:hover .foura:before{
+	background-position: -300px -200px;
+}
+.fivea:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -200px;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sixa:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -300px -0;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sevena:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -300px;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.merlastli:hover .sevena:before{
+	background-position: -300px -100px;
+}
+
+.eighta:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -0;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.prev{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	width: 100%;
+	padding:5px 0 0 0;
+}
+.first:hover .prev{
+	display: block;
+}
+.lastmenu{
+	position: absolute;
+	display: none;
+	width: auto;
+	left: 100%;
+	top:0;
+	padding:0 0 0 5px;
+}
+.merlast:hover .lastmenu{
+	display: block;
+}
+.merlast{
+	position: relative;
+}

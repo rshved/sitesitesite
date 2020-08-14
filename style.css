@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	
+	background: white;
+	margin: 0 auto;
+	padding: 10px;
+}
+h1 {
+	text-align: center;margin:0 auto 50px;font-size: 300%; font-family: Times New Roman;
+	color: darkblue
+}
+h2 {
+	text-align: center;margin:0 auto 50px;font-size: 200%;font-family: Times New Roman;
+	color: green;
+}
+h3 {
+	text-align: left;margin: 0 auto 50px;font-size: 150%;font-family: Times New Roman;
+	color: #ffd800;
+}
+div{
+	margin: 50px auto 50px;
+}
+p {
+	text-align: justify; word-spacing: 8px; line-height: 20px; font-size: 110%;margin: 0 auto 25px;
+}
+.mainword{
+	font-style: oblique;color: red;font-size: 19px;
+}
+
+
+.wrapper{
+	margin: 0 auto;
+	width: 1025px;
+
+} 
+
+html,body{
+	scroll-behavior: smooth;
+}
+.qwe{
+	text-align: center;
+}
+.as{
+	margin: 0 auto;
+}
+.sidebar{
+	position: fixed;
+	background-color: #919DC8;
+	top: 50%;
+	margin-top: -125px;
+	border-radius: 10px;
+	padding:5px; 	
+}
+
+.sidebar>p{
+	margin: 15px auto;
+}
+.miniwrapper{
+	position: relative;
+
+}
+.images{
+	display: inline-block;
+	position: relative;
+}
+
+.inscription{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0px;
+	margin-top: -20px;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	
+	
+}
+.menu{
+	font-size:0;
+	text-align: center;
+	position:relative;
+	z-index: 5;
+
+}
+.menu li{
+	background: #110D36;
+}
+.first{
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 20px;
+	
+	position: relative;	
+}
+.menu .first a:hover{
+	background: #EBDF21;
+}
+.menu .first a{
+	color:white;
+	text-decoration: none;
+	padding: 40px 40px 40px 140px;
+	display: block;
+	position: relative;
+}
+.menu .first .threea{
+	color:white;
+	text-decoration: none;
+	padding: 40px 140px 40px 40px;
+	display: block;
+	position: relative;
+}
+.onea:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -200px -0;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.twoa:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -100px;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.threea:after {
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -100px;
+	transition: all 0s ;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.menu .first:hover .threea:after{
+	background-position: -200px -100px;
+}
+.foura:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -200px;
+	transition: all 0s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.merlast:hover .foura:before{
+	background-position: -300px -200px;
+}
+.fivea:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -200px;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sixa:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -300px -0;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sevena:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -0 -300px;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.merlastli:hover .sevena:before{
+	background-position: -300px -100px;
+}
+
+.eighta:before{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background: url("imgs/css_sprites (1).png") -100px -0;
+	transition: all 1s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.prev{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	width: 100%;
+	padding:5px 0 0 0;
+}
+.first:hover .prev{
+	display: block;
+}
+.lastmenu{
+	position: absolute;
+	display: none;
+	width: auto;
+	left: 100%;
+	top:0;
+	padding:0 0 0 5px;
+}
+.merlast:hover .lastmenu{
+	display: block;
+}
+.merlast{
+	position: relative;
+}
+
