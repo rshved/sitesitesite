@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -379,3 +380,95 @@ table {
 .merlast{
 	position: relative;
 }
+.hover{
+	width: 305px;
+	height: 400px;
+	position:fixed;
+	display: block;
+	top: 60%;
+	right: -306px;
+	transform:translateY(-50%) rotate(-90deg) ;
+	background:#7298AE;
+	transition: right 1s ease-in-out;
+
+}
+.hover:hover{
+	
+	right: 0;
+	
+	
+}
+.click{
+	padding: 15px 25px;
+	background: #151E44;
+}
+.click p{
+	text-align: center;
+	color: #A9A560;
+
+}
+.social{
+	display: inline-block;
+	transform: rotate(45deg) translateX(28%) translateY(18%);
+
+}
+.social li{
+	
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.social li:hover{
+	background: #9E2222;
+}
+.soail li a{
+	display: block;
+	
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	transform: rotate(45deg);
+	
+}
+.social ul li a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100px;
+	transform: rotate(45deg) scale(1.6) translateX(-5px);
+	background: url(imgs/icon-sprites-6.jpg) 0 -100px;
+}
+.social ul li+li a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100px;
+	transform: rotate(45deg) scale(1.4);
+	background: url(imgs/icon-sprites-6.jpg) -100px -100px;
+	}
+	.social ul li+li+li a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100px;
+	transform: rotate(45deg) scale(1.4);
+	background: url(imgs/icon-sprites-6.jpg) -200px -100px;
+	}
+	.social ul li+li+li+li a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100px;
+	transform: rotate(45deg) scale(1.4) ;
+	background: url(imgs/icon-sprites-6.jpg) -300px -100px;
+	}

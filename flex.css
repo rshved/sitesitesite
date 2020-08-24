@@ -374,3 +374,53 @@ table {
 .merlast{
 	position: relative;
 }
+.rightmenu{
+	position: fixed;
+	top:40%;
+	right:-300px;
+	transition: right 1s ease;
+	
+}
+.rightmenu:hover{
+	right: 0;
+}
+.hoverme{
+	top: 40%;
+	right:0px;
+	position: absolute;
+	transform: rotate(-90deg);
+}
+.socials{
+	width: 300px;
+}
+.rightmenu{
+	position: fixed;
+  	top: 50%;
+  	right: -400px;
+  	transform: translateY(-40%);
+  	transition: right 2s ease;
+
+}
+.rightmenu:hover{
+   right:0;
+}
+.hoverme{
+  position: absolute;
+  top: 50%;
+  right: 91.5%;
+  transform: translateY(-50%) rotate(-90deg);
+  padding: 25px 30px;
+  background-color:#728DBB ;
+  text-align: center;
+  text-transform: uppercase;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+  .socials{
+  width: 300px;
+  height:200px;
+  background-color: #66b2b2;
+  padding: 70px 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px; 
+}

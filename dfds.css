@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {																			
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+	background:radial-gradient( ellipse farthest-side at center,#765252 50% ,#765252 60%, red 60%,red 70%, blue 70% );
+	height: 1000px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.hover{
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform:translateY(-50%) rotate(-90deg)  ;
+	width: 300px;
+	height: 400px;
+	display: block;
+	
+}
+.hover p{
+	padding: 15px 25px;
+	background: #151E44;
+	text-align: center;
+	color: #A9A560;
+}
+.social{
+	background-color: #54B2A1;
+	height: 400px;
+}
+.social ul{
+	transform:  translateX(11%) translateY(41%) rotate(45deg);
+	display: inline-block;
+
+}
+.social ul li{
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+.social ul li a{
+	position: absolute;
+	background:url(imgs/icon-sprites-6.jpg) 0 -100px;
+}
+.oval{
+	width: 200px;
+	height: 100px;
+ 	background: lime;
+ 	border-radius: 100px / 50px;
+ 	margin: 100px auto;
+ 	box-shadow: 0px 5px 10px 0 #818181 ;
+}
+.oval1{
+	width: 200px;
+	height: 100px;
+ 	background: yellow;
+ 	border-radius: 100px / 50px;
+ 	margin: 100px auto;
+ 	position: relative;
+}
+.oval1:before{
+	z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+}
+.f::selection{
+	color: green;
+	background-color: yellow;
+}

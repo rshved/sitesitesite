@@ -117,12 +117,17 @@ html,body{
 	left: 0;
 	right: 0px;
 	margin-top: -20px;
-	background-color: rgba(0,0,0,.5);
 	color: white;
 	font-size: 26px;
 	text-align: center;
+	opacity: 0;
+	background-color: rgba(0,0,0, .5);
+	transition: all 1s ease;
 	
 	
+}
+.images:hover .inscription{
+	opacity: 1;
 }
 .menu{
 	font-size:0;
