@@ -87,7 +87,7 @@
  		-moz-appearance: none;
  		appearance: none;
  		width: 100px;
- 		background: url(..//тест/imgs/100.png) no-repeat right 5% center;
+ 		background: url(../imgs/100.png) no-repeat right 5% center;
  		background-size:16px 16px;
  		margin: 20px;
 
