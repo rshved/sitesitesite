@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	position: relative;
 }
 ol, ul {
 	list-style: none;
@@ -121,4 +122,14 @@ table {
 .f::selection{
 	color: green;
 	background-color: yellow;
+}
+
+
+.firm_name{
+	position: absolute;
+	background:url(.//макет/Img/ООО_Уралинстрой.png);
+	width:	260px;
+	height: 26px;
+	top: 60px;
+	left: 250px;
 }

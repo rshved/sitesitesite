@@ -1,0 +1,695 @@
+@import url(fonts.css)
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+/*main*/
+body{
+	width: 1200px;
+	background-color: #686868;
+	margin: 0 auto;
+}
+.wrapper{
+	width: 1079px;
+	margin: 0 auto;
+	min-height: 500px;
+	outline: 1px solid red;
+	background: url(../img/bg.jpg) 0 -65px;
+	border-top:9.5px solid #414141;
+
+	
+}
+ /*header*/
+.header{
+	display: flex;
+	padding-left: 73px;
+	padding-top: 23px;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.Logo{
+	display: flex;
+	
+}
+.logotype{
+
+	width: 165px;
+	height: 129px;
+
+}
+.title{
+	margin-top:25px;
+	margin-left:12px; 
+}
+.ural{
+	
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+	color: #434242;
+	font-family: bloknotbolditalic;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 3px;
+	letter-spacing: 1.8px;
+
+}
+.builders{
+	color: #000000;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 5px;
+}
+.top_contacts{
+	margin-right: 40px;
+	margin-top: 30px;
+	text-align: right;
+}
+.address{
+	
+	color: #4e4e4e;
+	font-size: 14px;
+}
+.address1{
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.number{
+	color: #d80000;
+	font-size: 18px;
+}
+.tel{
+	margin-bottom:0px;
+}
+.telephone{
+	display:inline-block;
+	margin-top: 10px;
+	padding-left: 73px;
+	position: relative;
+	text-decoration: none;
+	color: #444444;
+	font-size: 14px;
+
+}
+.telephone:before{
+	position: absolute;
+	content: "";
+	width:31px;
+	height: 31px;
+	background: url(../img/tel.png);
+	left: 0;
+	bottom: -5px;
+}
+.post{
+	margin-top: 0;
+}
+.mail{
+	margin-top: 0;
+	padding-left: 45px;
+	position: relative;
+	text-decoration: none;
+	color: #565656;
+	font-size: 14px;
+}
+.mail:before{
+	position: absolute;
+	content: "";
+	width:30px;
+	height:19px;
+	background: url(../img/mail.png);
+	left: 0;
+	top:0;
+}
+.email{
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+/*menu*/
+nav .top{
+
+	margin-top:20px;
+	
+	
+}
+.top_menu{
+	left: -12px;
+	position: relative;
+	text-align: center;
+	font-size: 0;
+	z-index: 5;
+
+
+}
+.top_menu>.link{
+	display: inline-block;
+	box-shadow: 0 2px 2px white;
+}
+.link_home{
+	text-align: right;
+	display: inline-block;
+}
+.top_menu .home{
+	color: #ffffff;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-decoration: none;
+	padding: 10px 13px 10px 108px;
+	background-color: #434242;
+	border-left: 1px solid #ffffff;
+
+}
+.top_menu a{
+	color: #ffffff;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-decoration: none;
+	padding: 10px 13px 10px 14px;
+	background-color: #434242;
+
+}
+.top_menu .map{
+	padding: 10px 108px 10px 14px;
+	border-right: 1px solid #ffffff;
+	}
+.top_menu a:hover{
+	border:1px solid #ffffff;
+	background-color: #cd0202;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+}
+/*header*/
+/*middle*/
+.middle{
+	display: flex;
+	
+	padding-left: 15px;
+}
+	
+.left_menu{
+	flex: left;
+	width:233px;
+	height: 293px; 
+	margin-top:20px; 
+}
+
+.left_menu li.dots{
+	border-bottom:1px dotted rgba(0,0,0,0.5);
+}
+.left_menu a.ahome{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 162px;
+	position: relative;
+}
+.left_menu .ahome:after{
+	right: 15.5px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+}
+.left_menu .lihome:hover .ahome:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 15.5px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+.left_menu a.aservices{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 169px;
+	position: relative;
+
+}
+.left_menu .aservices:after{
+	right: 13px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+	
+	
+}
+.left_menu .liservices:hover .aservices:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 13px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+/*.leftmenu .liservices:hover{*/
+	/*border-bottom: 1px solid transparent;*/
+/*}*/
+.liservices:hover .ulservices{
+	display: block;
+
+}
+.ulservices{
+	margin-bottom: 20px;
+	display: none;
+}
+.ulservices li{
+	margin-bottom: 2px;
+
+}
+.ulservices li a{
+	text-decoration: none;
+	color: #232222;
+
+}
+.ulservices li:hover a{
+	text-decoration: underline;
+}
+
+.left_menu a.aabout{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 132px;
+	position: relative;
+}
+.left_menu .aabout:after{
+	right: 13.5px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+}
+.left_menu .liabout:hover .aabout:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 13.5px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+.left_menu a.aprojects{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 113px;
+	position: relative;
+}
+.left_menu .aprojects:after{
+	right: 13.5px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+}
+.left_menu .liprojects:hover .aprojects:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 13.5px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+.left_menu a.ainfo{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 124px;
+	position: relative;
+}
+.left_menu .ainfo:after{
+	right: 13.5px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+}
+.left_menu .liinfo:hover .ainfo:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 13.5px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+.left_menu a.acontacts{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 150px;
+	position: relative;
+}
+.left_menu .acontacts:after{
+	right: 14px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+}
+.left_menu .licontacts:hover .acontacts:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 14px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+.left_menu a.amap{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 131px;
+	position: relative;
+}
+.left_menu .amap:after{
+	right: 14px;
+	bottom: 5px;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: url(../img/arrows.png) 0 0;
+	position: absolute;
+}
+.left_menu .limap:hover .amap:after{
+	background: url(../img/red_arrow.png); 
+	width: 7px;
+	height: 8px;
+	right: 14px;
+	bottom: 5px;
+	content: "";
+	position: absolute;
+
+}
+.left_menu a:before{
+	content: "";
+	position: absolute;
+	background: #cd0202;
+	width: 4px;
+	height: 4px;
+	top: 8px;
+	left: 0;
+}
+.banner{
+	margin-top: 19px;
+	margin-left: 15px;
+	width: 735px;
+	height: 318px;
+	background: url(../img/banner.png);
+	border: 1px solid #aaaaaa;
+	
+}
+.banner .tech{
+
+	color: #2b2b2b;
+	font-family: bloknotbolditalic;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 24px;
+	margin: 14px 0px 13px 24px;
+}
+.banner .effective{
+	color: #000000;
+	font-family: bloknotbolditalic;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+	margin-left: 26px;
+	margin: 0 0 0 24px;
+	width: 262px;
+}
+
+.buttons{
+	position: relative;
+	
+	height: 25px;
+	left: 24px;
+	top: 192px;
+}
+.buttons a{
+	width: 24px;
+	height: 24px;
+	margin-right: 4px;
+	background: url(..//img/1.png) -1px 0;
+	font-weight: 500;
+
+	
+	padding: 6px 9px 3px 9px;
+	text-decoration: none;
+	color: white;
+	vertical-align: top;
+
+}
+
+/*content*/
+.content{
+	width: 921px;
+	
+	color: #242424;
+	margin-left: 58px;
+	margin-top: 15px;
+	text-align: justify;
+
+}
+.about_company{
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+	padding-left: 15px;
+	position: relative;
+}
+.about_company:before{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 0;
+	top:3.5px;
+	background: url(../img/square.png);
+}
+.text{
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+
+}
+.uis{
+	font-weight: 700;
+}
+.we{
+	line-height: 10px;
+}
+
+/*.gallery*/
+.gallery{
+	width: 981px;
+	margin-top: 30px;
+	border-top:1px dotted rgba(0,0,0,0.5);
+	margin-left: 51px;
+	display: flex;
+	justify-content: space-between;
+}
+.constructed_objects{
+	width: 505px;
+
+}
+.constructed{
+	margin:10px 0 10px 9.5px;
+	position: relative;
+	padding-left: 30px;
+	color: #000000;
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.constructed:before{
+	content: "";
+	position: absolute;
+	background: url(../img/square.png);
+	width: 10px;
+	height: 10px;
+	top: 5px;
+	left: 10px;
+}
+.fair{
+	margin-top: 0px;
+	margin-left: 20px;
+	position: relative;
+	width: 181px;
+	display: inline-block;
+	
+}
+.fairimg{
+	margin:0;
+	width: 181px;
+	height: 118px;
+	
+}
+.zoom{
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 0;
+	left: 182px;
+}
+.extension{
+	color: #010101;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 26px;
+	position: relative;
+}
+.extension:before{
+	content: "";
+	position: absolute;
+	background:#c90000;
+	width: 3px;
+	height: 3px;
+	top: 5px;
+	left: 13px;
+}
+.administration{
+	width: 181px;
+	margin-top: 0;
+	display: inline-block;
+	margin-left: 30px;
+	position: relative;
+}
+.admin{
+	color: #010101;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 9px;
+	position: relative;
+}
+.admin:before{
+	content: "";
+	position: absolute;
+	background:#c90000;
+	width: 3px;
+	height: 3px;
+	top: 6px;
+	left: 0px;
+}
+
+
+/*footer*/
