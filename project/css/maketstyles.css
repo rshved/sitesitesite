@@ -583,7 +583,7 @@ nav .top{
 	background: url(../img/square.png);
 }
 .text{
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 17px;
@@ -622,7 +622,7 @@ nav .top{
 	position: relative;
 	padding-left: 30px;
 	color: #000000;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 18px;
 	font-weight: 400;
 
@@ -660,7 +660,7 @@ nav .top{
 }
 .extension{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 26px;
@@ -671,7 +671,7 @@ nav .top{
 }
 .extens{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 26px;
@@ -697,7 +697,7 @@ nav .top{
 }
 .admin{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 9px;
@@ -723,7 +723,7 @@ nav .top{
 .ponds{
 	margin-top: 5px;
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 9px;
@@ -748,7 +748,7 @@ nav .top{
 }
 .center{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left:10px ;
@@ -758,7 +758,7 @@ nav .top{
 }
 .sail{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
@@ -777,7 +777,7 @@ nav .top{
 }
 .all_projects{
 	color: #5c5c5c;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 12px;
 	font-weight: 400;
 	margin: 50px 20px 0 300px;
@@ -792,7 +792,7 @@ nav .top{
 	position: relative;
 	padding-left: 30px;
 	color: #000000;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -816,7 +816,7 @@ nav .top{
 }
 .district{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 10px;
@@ -844,7 +844,7 @@ nav .top{
 }
 .adminandhouse{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 5px;
@@ -870,7 +870,7 @@ nav .top{
 .complex{
 	margin-top: 5px;
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 5px;
@@ -896,7 +896,7 @@ nav .top{
 }
 .holiday{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	padding-left:5px ;
@@ -906,7 +906,7 @@ nav .top{
 }
 .sunday{
 	color: #010101;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
@@ -925,7 +925,7 @@ nav .top{
 }
 .all_curprojects{
 	color: #5c5c5c;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 12px;
 	font-weight: 400;
 	margin: 50px 0 0 310px;
@@ -952,7 +952,7 @@ nav .top{
 }
 .bot_link>a{
 	color: #ffffff;
-	font-family: "Trebuchet MS";
+	font-family: Trebuchet MS;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 24px;
