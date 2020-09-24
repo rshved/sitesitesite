@@ -1,0 +1,92 @@
+.header{
+	background: #070706;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar{
+	background: #070706;
+}
+.btn-group{
+	width: 203px;
+}
+
+.lang:focus,.lang:active,.lang:hover{
+	color: #fbc620;
+	outline:none;!important
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.lang{
+	color: white;
+	background: #000000;
+}
+.basketmain{
+	padding: 7.5px 10px 10px 10px ;
+	border:1px solid #111111;
+}
+.basket{
+	padding-left: 78px;
+	color: #fbc620;
+	position: relative;
+	border
+}
+.basket:before{
+	position: absolute;
+	background: #fbc620;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 15px;
+	content: "";
+	border-radius: 50%;
+}
+.basket:after{
+	position: absolute;
+	background: url(../img/basket.png);
+	width: 16px;
+	height: 16px;
+	top: 11px;
+	left: 27px;
+	content: "";
+}
+.basket:hover,.basket:focus{
+	outline:none;!important
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #fbc620;
+}
+.mymenu{
+	background-color: #111111;
+}
+.navbar-main {
+  width: 100%;
+  background-color: #111111;
+  overflow: auto;
+}
+
+.navbar-main a {
+  float: left;
+  padding: 22px;
+  color: white;
+  text-decoration: none;
+ 
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  font-family: "Century Gothic";
+font-size: 18px;
+font-weight: 700;
+line-height: 6px;
+text-transform: uppercase;
+  
+ /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+.navbar-main a:hover {
+  background-color: #fbc620;
+  color: black;
+}
+.navbar-main a:focus {
+  background-color: #fbc620;
+  color: black;
+}
+
