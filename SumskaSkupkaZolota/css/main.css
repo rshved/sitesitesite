@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+
+background-image: linear-gradient(138deg, #8080ad 27.78%, #67708f 27.78%, #67708f 50%, #8080ad 50%, #8080ad 77.78%, #67708f 77.78%, #67708f 100%);
+background-size: 67.25px 60.55px;
+
+line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tagline{
+	text-align: center;
+}
+
+
+.nav-link{
+	margin-right: 10px;
+	color: white !important;
+}
+
+.nav-link:hover{
+	color:#1B0E04 !important;
+}
+.nav-link:last-child{
+	margin-right: 0;
+}
+
+.socials{
+	font-size: 15px;
+
+}
+.socials>li>a{
+	text-decoration: none;
+	
+
+}
+.telephone,.mail,.adress{
+	font-size: 12px;
+	text-decoration: none;
+	color:#572A11;
+}
+.telephone:hover{
+	color: #145D46;
+}
+.mail:hover{
+	color: #145D46;
+}
+.adress:hover{
+	color:#145D46;
+}
+
+.owl-nav{
+		display: flex;
+		justify-content: space-between;
+		height: 0;
+		position:relative;
+    	bottom: 200px;
+
+    	
+	}
+.owl-prev,.owl-next{
+	width: 15px;
+	height: 45px;
+	border: 0.2px solid black !important;
+}
+@media screen and (max-width: 1024px) {
+.owl-nav{
+	display: none;
+}
+@media screen and (max-width: 768px) {
+.owl-nav{
+	display: none;
+}
+@media screen and (max-width: 368px) {
+.owl-nav{
+	display: none;
+}
+
