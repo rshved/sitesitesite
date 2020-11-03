@@ -48,9 +48,11 @@ table {
 
 .tagline{
 	text-align: center;
-	border-bottom: 1px solid #F9EE46;
+	border-bottom: 2px ridge #F9EE46;
 }
-
+.logo{
+	border-bottom: px ridge #F9EE46;
+}
 
 .nav-link{
 	margin-right: 10px;
