@@ -23,10 +23,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
 
-background-image: linear-gradient(138deg, #8080ad 27.78%, #67708f 27.78%, #67708f 50%, #8080ad 50%, #8080ad 77.78%, #67708f 77.78%, #67708f 100%);
-background-size: 67.25px 60.55px;
+body {
+color: white;
+background-image: linear-gradient(163deg, #384a57 25%, #0b0e21 25%, #0b0e21 50%, #384a57 50%, #384a57 75%, #0b0e21 75%, #0b0e21 100%);
+background-size: 157.33px 48.10px;
+
+/*background: url(../imgs/paper-30.jpg) center;*/
 
 line-height: 1;
 }
@@ -45,7 +48,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*header*/
 .tagline{
 	text-align: center;
 	border-bottom: 2px ridge #F9EE46;
@@ -89,7 +92,8 @@ table {
 .adress:hover{
 	color:#145D46;
 }
-
+/*header*/
+/*owl*/
 .owl-nav{
 		display: flex;
 		justify-content: space-between;
@@ -105,8 +109,14 @@ table {
 	border: 0.2px solid black !important;
 
 }
+/*owl*/
+/*parallax*/
 
 
+
+/*parallax*/
+
+/*media*/
 @media screen and (max-width: 1024px) {
 .owl-nav{
 	display: none;
@@ -119,4 +129,4 @@ table {
 .owl-nav{
 	display: none;
 }
-
+/*media*/
