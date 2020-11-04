@@ -106,11 +106,7 @@ table {
 
 }
 
-.owl-carousel img {
-	max-width: 100%;
-		height: auto;
-		width: 100%\9;
-}
+
 @media screen and (max-width: 1024px) {
 .owl-nav{
 	display: none;
