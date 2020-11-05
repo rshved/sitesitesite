@@ -68,6 +68,9 @@ table {
 .nav-link:last-child{
 	margin-right: 0;
 }
+.dropdown-menu{
+	background: #B1BCC6;
+}
 
 .socials{
 	font-size: 15px;
@@ -110,12 +113,91 @@ table {
 
 }
 /*owl*/
-/*parallax*/
+/*middle*/
+.content{
+	text-align: justify;
+}
+.content p{
+	line-height: 32px;
+}
+
+.buying p{
+	text-align: justify;
+}
+.content h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+	position: relative;
+	border-bottom: 1px solid #FDFEA6;
+	padding-bottom: 10px;
+	color:#FDFEA6;
+}
+.content h3:before{
+	content: "";
+	position: absolute;
+	border-bottom: 5px solid #FDFEA6;
+	bottom: -2%;
+	width: 77px;
+	left: 46.6%;
+}
+.buying{
+		position: relative;
+		font: 500 30px;
+		text-align: center;
+		text-transform: uppercase;
+		border-bottom: 1px solid #F8D802;
+		padding-bottom: 5px;
+		color:#FFFFFF;
+	}
+
+.buying:before{
+	content: "";
+	position: absolute;
+	border-bottom: 5px solid #F8D802;
+	bottom: -19%;
+	width: 77px;
+	left: 46.6%;
+}
+.benefitslist{
+	list-style: disc;
+	padding-left: 40px;
+
+}
+.benefitslist li{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.benefitslist li:first-child{
+	padding-top: 20px;
+}
+.benefitslist li:last-child{
+	margin-bottom: 0px;
+}
+
+/*middle*/
+/*map*/
 
 
+.geolocation{
+		position: relative;
+		font: 500 23px 'CenturyGothic';
+		text-align: center;
+		text-transform: uppercase;
+		border-bottom: 1px solid #F8D802;
+		padding-bottom: 5px;
+	}
 
-/*parallax*/
-
+	.geolocation:before{
+		content: "";
+		position: absolute;
+		border-bottom: 5px solid #F8D802;
+	    bottom: -10%;
+	    width: 77px;
+	    left: 46.6%;
+	}
+/*map*/
 /*media*/
 @media screen and (max-width: 1024px) {
 .owl-nav{
